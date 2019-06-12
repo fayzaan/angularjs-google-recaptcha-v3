@@ -1,6 +1,6 @@
 {
   "name": "angularjs-google-recaptcha-v3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An AngularJS module to use Google reCaptcha v3",
   "main": "index.js",
   "scripts": {
