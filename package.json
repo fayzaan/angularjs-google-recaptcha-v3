@@ -1,0 +1,27 @@
+{
+  "name": "angularjs-google-recaptcha-v3",
+  "version": "1.0.0",
+  "description": "An AngularJS module to use Google reCaptcha v3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    {
+      "name": "Mohammed Faizan Qureshi",
+      "email": "mohammed.qureshi@gmail.com",
+      "url": "https://github.com/fayzaan/angularjs-google-recaptcha-v3"
+    }
+  ],
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.0.0"
+  },
+  "author": "Mohammed Faizan Qureshi",
+  "license": "ISC"
+}
