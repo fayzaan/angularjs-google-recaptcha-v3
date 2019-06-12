@@ -10,9 +10,14 @@
     {
       "name": "Mohammed Faizan Qureshi",
       "email": "mohammed.qureshi@gmail.com",
-      "url": "https://github.com/fayzaan/angularjs-google-recaptcha-v3"
+      "url": "https://github.com/fayzaan"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fayzaan/angularjs-google-recaptcha-v3"
+  },
+  "keywords": ["google", "recaptcha", "version", "3", "fayzaan", "angularjs"],
   "devDependencies": {
     "bower": "^1.8.0",
     "grunt": "^1.0.1",
@@ -23,5 +28,5 @@
     "grunt-contrib-uglify": "^2.0.0"
   },
   "author": "Mohammed Faizan Qureshi",
-  "license": "ISC"
+  "license": "MIT"
 }
