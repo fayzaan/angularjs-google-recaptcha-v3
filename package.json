@@ -27,6 +27,6 @@
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^2.0.0"
   },
-  "author": "Mohammed Faizan Qureshi",
+  "author": "Mohammed Faizan Qureshi <mohammed.qureshi@gmail.com>",
   "license": "MIT"
 }
