@@ -1,7 +1,7 @@
 /**
- * @license angularjs-google-recaptcha-v3 build:2019-06-12
+ * @license angularjs-google-recaptcha-v3 build:2021-03-27
  * 
- * Copyright (c) 2019 FayzaanCorp
+ * Copyright (c) 2021 FayzaanCorp
 **/
 
 /*global angular, Recaptcha*/
@@ -19,7 +19,6 @@
 
 	app.provider('gRecaptcha', function () {
 		var service = this;
-		var config = {};
 
 		service.$get = ['$window', '$q', '$document', '$interval',
 			function ($window, $q, $document, $interval) {
@@ -45,7 +44,7 @@
 		    }
 
 		    function execute (params) {
-		      if (isInitializing()) {
+		      if (isInitializing() || !isExecuteAvailable()) {
 		        return defered
 		          .promise
 		          .then(function () {

@@ -32,7 +32,7 @@
 		    }
 
 		    function execute (params) {
-		      if (isInitializing()) {
+		      if (isInitializing() || !isExecuteAvailable()) {
 		        return defered
 		          .promise
 		          .then(function () {
